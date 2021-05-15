@@ -47,9 +47,8 @@ git pull origin main
 
 NOTE: You don't need to create new branch, for that you can push directly to main branch.
 When you push to main branch, you won't need to merge.
-
 git push origin main.
------------------------------------------------------------------------------------------
--> Delete file or folder on Repositories EX: git rm A.docx (filename)
+
+NOTE: Delete file or folder on Repositories EX: git rm A.docx (filename)
 git rm  ... 
 
