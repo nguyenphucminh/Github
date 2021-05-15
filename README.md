@@ -34,6 +34,9 @@ git push --set-upstream origin ...
 10.Go to CMD -> 4.Update branch main
 git pull origin main
 
+NOTE: You don't need to create new branch, for that you can push directly to main branch.
+When you push to main branch, you won't need to merge.
 
+git push origin main.
 
 
