@@ -1,5 +1,14 @@
 # Github
 Github User Guide
+Dowload GITBASH for win and install this file
+https://git-scm.com/download/win
+
+open CMD or powershell
+git config --global user.name <username Github>
+git config --global user.email <gmail>
+
+New repository -> add a README file (auto have branch main)
+New repository -> not choice (create branch) -> CMD -> git checkout -b main
 
 Start:
 1. convert hard drive containing the folder.
