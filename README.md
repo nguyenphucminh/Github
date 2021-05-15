@@ -11,36 +11,36 @@ New repository -> add a README file (auto have branch main)
 New repository -> not choice (create branch) -> CMD -> git checkout -b main
 
 Start:
-1. convert hard drive containing the folder.
+1. Convert hard drive containing the folder.
 D: 
 
-2.find the folder
+2. Find the folder
 dir
 
-3.Let's use a command to go the folder you want - EX: cd Github
+3. Let's use move command to go the folder you want - EX: cd Github
 cd
 git status (check)
 
-4.Update branch main
+4. Update branch main
 git pull origin main
 
-5.create new branch EX: git checkout -b MINH(name)
+5. Create new branch EX: git checkout -b MINH(name)
 git checkout -b ...
 git checkout main
 
-6.add all the changes of you
+6. Add all the changes of you
 git add .
 
-7.confirm your changes EX: git commit -m MINH(name)
+7. Confirm your changes EX: git commit -m MINH(name)
 git commit -m ...
 git commit
 
-8.Push your new branch to github EX: git push --set-upstream origin MINH(name)
+8. Push your new branch to github EX: git push --set-upstream origin MINH(name)
 git push --set-upstream origin ...
 
-9.Go to github Website -> Repositories -> Pull requests -> Merge
+9. Go to github Website -> Repositories -> Pull requests -> Merge
 
-10.Go to CMD -> 4.Update branch main
+10. Go to CMD -> 4.Update branch main
 git pull origin main
 
 NOTE: You don't need to create new branch, for that you can push directly to main branch.
