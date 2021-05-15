@@ -10,6 +10,8 @@ git config --global user.email <gmail>
 New repository -> add a README file (auto have branch main)
 New repository -> not choice (create branch) -> CMD -> git checkout -b main
 
+Go to D: -> git clone http://github.com/username/filename.git (copy URL)
+
 Start:
 1. Convert hard drive containing the folder.
 D: 
@@ -19,7 +21,6 @@ dir
 
 3. Let's use move command to go the folder you want - EX: cd Github
 cd
-git status (check)
 
 4. Update branch main
 git pull origin main
@@ -30,6 +31,7 @@ git checkout main
 
 6. Add all the changes of you
 git add .
+git status (check)
 
 7. Confirm your changes EX: git commit -m MINH(name)
 git commit -m ...
