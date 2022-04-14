@@ -1,4 +1,13 @@
-Github User Guide Dowload GITBASH for win and install this file https://git-scm.com/download/win
+## Guide GitHub: 
+1. How To Install GitBash
+-install this file
+1. Item 2
+1. Item 3
+  1. Item 3a
+  1. Item 3b
+You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
+Github User Guide Dowload GITBASH for win and :
+https://git-scm.com/download/win
 
 open CMD or powershell git config --global user.name "username Github" git config --global user.email "gmail"
 
