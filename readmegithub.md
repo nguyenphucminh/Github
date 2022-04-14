@@ -1,32 +1,24 @@
 ## Guide GitHub: 
-1. How To Install GitBash
--install this file
-1. Item 2
-1. Item 3
-  1. Item 3a
-  1. Item 3b
-You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
-Github User Guide Dowload GITBASH for win and :
-https://git-scm.com/download/win
+1. How To Install GitBash:
 
-open CMD or powershell git config --global user.name "username Github" git config --global user.email "gmail"
+- Install this file: [Link GitBash](https://git-scm.com/download/win)
 
-New repository -> add a README file (auto have branch main) New repository -> not choice (create branch) -> CMD -> git checkout -b main
+2. Open CMD or powershell:
 
-Go to D: -> git clone http://github.com/username/filename.git (copy URL)
+- Config Username: 
+   ` git config --global user.name "username Github"`
+- Config Gmail: 
+   ` git config --global user.email "gmail"`
+  
+3. How to create a new repository 
 
-Start:
+- `git init`
 
-Convert hard drive containing the folder. D:
+4. How to clone a repository 
 
-Find the folder dir
+- `git clone http://github.com/username/filename.git (copy URL)`
 
-Let's use move command to go the folder you want - EX: cd Github cd
-
-Update branch main git pull origin main
-
-Create new branch EX: git checkout -b MINH(name) git checkout -b ... git checkout main
-
+5. GUIDE
 Review the changes use git status
 
 Add all the changes of you git add .
