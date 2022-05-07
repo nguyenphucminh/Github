@@ -44,12 +44,21 @@ NOTE: Use "git restore ." command can help you restore all file since last commi
 NOTE: Use "git diff" command to review changes since last commit, (compare changed files) OR "git diff -- staged"
 
 6. STASH SAVE
+
    `git stash save`
+   
    `git add .`
+   
    `git commit - m `
+   
    `git push`
+   
    `git stash pop`
+   
 Some stash advanced:
+
 git stash list: show list stash
+
 git stash drop @{1}: delete stash {1}
+
 git stash clear: delete all stash
