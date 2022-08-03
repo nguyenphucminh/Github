@@ -32,7 +32,28 @@ Push your new branch to github EX: git push --set-upstream origin MINH(name) git
 Go to github Website -> Repositories -> Pull requests -> Merge
 
 Go to CMD -> 4.Update branch main git pull origin main
+Readmore: https://realfavicongenerator.net/faq#.YuorLnbP02w
+Readmore: Common file validation: https://www.validbot.com/tests.php
+Create an icon combo:
 
+
+Go to: https://www.favicon-generator.org/
+
+
+Choose a file PNG or JPG with size 32x32
+
+
+Check box with options: Generate icons for Web, Maintain Image Dimensions and Include your favicon.ico in the public gallery
+
+
+Press Create Favicon
+
+
+Click on the link "Download the generated favicon" to dowload
+
+
+Another link: https://favicon.io/
+Link test: https://realfavicongenerator.net/
 NOTE: You don't need to create new branch, for that you can push directly to main branch. When you push to main branch, you won't need to merge. git push origin main.
 
 NOTE: Delete file or folder on Repositories EX: git rm A.docx (filename) git rm ...
