@@ -87,13 +87,9 @@ git add . : thêm vào Staged
 
 git restore --staged <file or .>: thoát khỏi Staged
 
-git commit -m "<message>": đưa vào CSDLgit 
-
 git log: xem tất cả commit 
 
 git log --oneline : xem tất cả commit ngắn gọn
-
-git restore <file or .>: phục hồi dữ liệu(không ghi lại hoạt động xóa - không cần commit hay add), cũng có thể là snapshot 
 
 git diff: so sánh sự thay đổi giữa file mới chỉnh(chưa add vào Staged) và file commit lần cuối
 
@@ -112,14 +108,23 @@ git reset --soft HEAD~1: xóa commit cuối và đưa về Staged
 
 git reset --hard HEAD~1: xóa commit vĩnh viễn và trả về commit trước đó (nếu số 2 là xóa 2 nhánh liền kề, thêm bao nhiêu thì xóa bao nhiêu)
 
-git reset -- <file or .>: xóa Staged trở về trạng thái khi chưa add
+git reset .: xóa Staged trở về trạng thái khi chưa add
 
 git merge <namebranch>: hợp nhất nhánh main với nhánh <namebranch> đã gọi
 git merge --abort: hủy bỏ hợp nhất 2 nhánh khi xung đột
 
-git branch -d <namebranch>:xóa nhánh
+git branch -d <namebranch>:xóa nhánh local
+
+git push origin --delete <namebranch>: xóa nhánh remote
+
+git branch | grep -v 'master' | xargs git branch -D: xóa hết nhánh ở local trừ master 
 
 git log --oneline --graph: xem các nhánh commit với biểu đồ (đỏ: merge lần cuối, xanh: merge từ trước)
+
+git checkout .: nothing to change
+
+git clean -d -f: nothing to change
+
 
 -----
 tạo file .gitignore ở thư mục gốc, sau đó muốn git bỏ qua các file thì soạn cú pháp *.<đuôi tệp> tại file .gitignore
