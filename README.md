@@ -69,8 +69,11 @@
 
 
 ## 7. Change Github Account 
-![image](https://user-images.githubusercontent.com/59383987/194714410-db8dff16-61f6-427f-9fd2-492991eb10c8.png)
-![image](https://user-images.githubusercontent.com/59383987/194714423-e2e8eae1-bc91-4a53-a76d-8c42e94563db.png)
+- `nano ~/.gitconfig`
+
+- `git config -l`
+
+or
 
 - `git config --global user.name "username Github"`
 - `git config --global user.email "gmail"`
