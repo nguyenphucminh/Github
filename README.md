@@ -1,3 +1,13 @@
+# Theory:
+* MongoDB Compass chỉ là môi trường giao diện
+* MongoDB Shell dành cho môi trường dòng lệnh
+* MongoDB Atlat CLI là môi trường lưu trữ web (cloud)
+* Linux ko truy cập đc ứng dụng trên window, Chỉ có window truy cập đc linux, thế nên cài mongodb trên linux vì project có ở linux
+* Mongo Shell là một JavaScript interface tương tác với MongoDB, Mongosh là cái tool để viết mongoshell
+* khi cài mongoshell về thì mongosh sẽ được kèm theo
+* Mongoose là một thư viện JavaScript cho phép bạn định nghĩa các schema với dữ liệu được định kiểu rõ ràng. Khi một schema được định nghĩa, Mongoose cho phép bạn tạo một Model dựa trên một schema cụ thể. Model của Mongoose sau đó được ánh xạ tới một MongoDB document thông qua định nghĩa schema của Model.
+*Khi bạn đã xác định các schema và model của mình, Mongoose chứa nhiều hàm khác nhau cho phép bạn xác thực tính hợp lệ, lưu, xóa và truy vấn dữ liệu của bạn bằng các hàm MongoDB phổ biến. Tôi sẽ nói về việc này nhiều hơn với các ví dụ code cụ thể.
+* Personal access tokens (PATs) là một giải pháp thay thế cho việc xác thực mật khẩu. Token nó như là 1 password thay thế, tuy nhiên nó có thể phân quyền access khác nhau cho từng token khác nhau và nhiều lựa chọn phân quyền
 # Guide GitHub: 
 ## 1. How To Install GitBash:
 
@@ -80,7 +90,7 @@ or
 
 
 
-## 8. demo
+## 8. Other git
 git status: kiểm tra trạng thái
 
 git add . : thêm vào Staged
@@ -133,8 +143,29 @@ EX:  *.html  *.css   => git sẽ bỏ qua mà không cần duyệt mấy file c�
 
 EX:  Tep             => git sẽ bỏ qua mà không cần duyệt mấy tệp tin có tên này
 
+## 9. Tạo docker mongo:
+1. docker pull mongo:latest
+2. docker images
+3. docker run --name mymongo -d -p 27017:27017 -t mongo:latest
+4. docker ps -a
+5. docker exec -it mymongo bash
 
-## 9. Template github
+## 10. Install mongoshell Ubuntu
+1. https://www.mongodb.com/try/download/shell
+2. -> MongoDBshell -> DebanUbuntu64-bit (deb)
+3. Copylink 
+4. Open terminal -> wget https://downloads.mongodb.com/compass/mongodb-mongosh_1.4.2_amd64.deb
+5. sudo dpkg -i mongodb-mongosh_1.4.2_amd64.deb
+6. check version -> mongosh --version  -> mongosh mongodb://127.0.0.1:27017
+
+
+## 11. Config SHH keys Github
+###### Config SSH Key này trên Github để mỗi lần thực hiện các thao tác với git (clone, commit, push, pull,..) thì Github không yêu cầu nhập mật khẩu nữa. SSH có sẵn trong máy, và là key này dựa vào máy để xác thực
+1. terminal-> ssh-keygen
+2. `cat ~/.ssh/id_rsa.pub`
+3. github-> setting -> SHHKeys -> New SHH key -> thêm title -> paste all mã id_rsa.pub -> add 
+
+## 12. Template github
 
 <img
   src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"
