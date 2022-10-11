@@ -161,9 +161,15 @@ EX:  Tep             => git sẽ bỏ qua mà không cần duyệt mấy tệp t
 
 ## 11. Config SHH keys Github
 ###### Config SSH Key này trên Github để mỗi lần thực hiện các thao tác với git (clone, commit, push, pull,..) thì Github không yêu cầu nhập mật khẩu nữa. SSH có sẵn trong máy, và là key này dựa vào máy để xác thực
-1. terminal-> ssh-keygen
-2. `cat ~/.ssh/id_rsa.pub`
-3. github-> setting -> SHHKeys -> New SHH key -> thêm title -> paste all mã id_rsa.pub -> add 
+1. Nhấn WIN + I để mở Settings.
+2. Mở Apps > Apps & features.
+3. Nhấp vào Optional features.
+4. Nhấp vào +Add a feature.
+5. Duyệt danh sách để tìm OpenSSH Client.
+6. Chọn và bấm Install.
+7. Terminal github-> ssh-keygen
+8. `cat ~/.ssh/id_rsa.pub`
+9. github-> setting -> SHHKeys -> New SHH key -> thêm title -> paste all mã id_rsa.pub -> add 
 
 ## 12. Template github
 
