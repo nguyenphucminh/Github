@@ -135,7 +135,6 @@ git checkout .: nothing to change
 
 git clean -d -f: nothing to change
 
-
 -----
 tạo file .gitignore ở thư mục gốc, sau đó muốn git bỏ qua các file thì soạn cú pháp *.<đuôi tệp> tại file .gitignore
 
@@ -171,7 +170,42 @@ EX:  Tep             => git sẽ bỏ qua mà không cần duyệt mấy tệp t
 8. `cat ~/.ssh/id_rsa.pub`
 9. github-> setting -> SHHKeys -> New SHH key -> thêm title -> paste all mã id_rsa.pub -> add 
 
-## 12. Template github
+## 12. Recovery reset --hard
+#### Case: nếu tất cả các file thay đổi đã được commit
+1. Liệt kê history của con trỏ HEAD
+```
+git reflog
+
+b6eb67c HEAD@{0}: reset: moving to b6eb67c
+ff31686 HEAD@{1}: commit: fourth commit
+ac79570 HEAD@{2}: reset: moving to HEAD@{1}
+b6eb67c HEAD@{3}: reset: moving to b6eb67c
+```
+2. Rollback về commit
+```
+git branch <name> ff31686 
+```
+3. git checkout qua branch đó
+```
+git checkout <name>
+```
+#### Case: những thay đổi đã được add nhưng chưa được commit
+1. liệt kê các object bị reset hard xóa
+```
+git fsck --full
+
+Checking object directories: 100% (256/256), done.
+dangling blob 9daeafb9864cf43055ae93beb0afd6c7d144bfa4
+dangling blob 2894e252ee1a560df965662a8c138b9e16e7dd3b
+dangling blob e9e638322fe1703200d5af40e691af0208cf3a97
+```
+2. tìm id có chứa nội dung bị xóa bởi reset hard
+```
+git show 3e65ed2670ae277e9d042659dd8639cd0f0f7d9c
+HI, my name is ming, and i was deleted by reset hard 
+```
+3. Copy nội dung này tạo thành file mới để khôi phục lại dữ liệu
+## 13. Template github
 
 <img
   src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"
