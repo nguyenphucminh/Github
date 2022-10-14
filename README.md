@@ -339,6 +339,6 @@ HI, my name is ming, and i was deleted by reset hard
 </p>
 ## 14. Finding
 https://dnsdumpster.com/
-
+https://emojipedia.org/waving-hand/
 
 
