@@ -337,7 +337,8 @@ HI, my name is ming, and i was deleted by reset hard
       src="https://img.shields.io/badge/-Telegram-0e76a8?style=for-the-badge&logo=Telegram&logoColor=white&link=https://t.me/nowbie"
   /></a>
 </p>
-
+## 14. Finding
+https://dnsdumpster.com/
 
 
 
