@@ -205,6 +205,24 @@ git show 3e65ed2670ae277e9d042659dd8639cd0f0f7d9c
 HI, my name is ming, and i was deleted by reset hard 
 ```
 3. Copy nội dung này tạo thành file mới để khôi phục lại dữ liệu
+
+## 13. command linux
+```
+htop: show tiến trình đang chạy
+ps -aux: show tiến trình
+ps -aux | grep <key-search>: lọc tiến trình theo key-search
+ss -l : show các port đang sử dụng
+kill <PID> : kill các tiến trình
+```
+
+## 14. docker linux
+docker compose là một file shell chứa các command để chạy command đó theo thứ tự
+image chứa các container
+```
+docker ps: show các container đang chạy
+docker ps -a: show tất cả container
+docker exec -it <name-container> bash: chạy shell trong bash container 
+```
 ## 13. Template github
 
 <img
