@@ -213,6 +213,7 @@ ps -aux: show tiến trình
 ps -aux | grep <key-search>: lọc tiến trình theo key-search
 ss -l : show các port đang sử dụng
 kill <PID> : kill các tiến trình
+lsof -i :<port>
 ```
 
 ## 14. docker linux
