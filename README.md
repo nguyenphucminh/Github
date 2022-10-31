@@ -224,6 +224,10 @@ docker ps: show các container đang chạy
 docker ps -a: show tất cả container
 docker exec -it <name-container> bash: chạy shell trong bash container 
 ```
+## 15. show pdf
+```
+https://anyflip.com/
+```
 ## 13. Template github
 
 <img
