@@ -232,7 +232,11 @@ https://anyflip.com/
 ```
 https://rapidapi.com/
 ```
-## 13. Template github
+## 17. Finding IP
+https://dnsdumpster.com/
+https://emojipedia.org/waving-hand/
+
+## 100. Template github
 
 <img
   src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"
@@ -364,8 +368,6 @@ https://rapidapi.com/
       src="https://img.shields.io/badge/-Telegram-0e76a8?style=for-the-badge&logo=Telegram&logoColor=white&link=https://t.me/nowbie"
   /></a>
 </p>
-## 14. Finding
-https://dnsdumpster.com/
-https://emojipedia.org/waving-hand/
+
 
 
