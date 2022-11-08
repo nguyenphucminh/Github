@@ -167,7 +167,7 @@ EX:  Tep             => git sẽ bỏ qua mà không cần duyệt mấy tệp t
 5. Duyệt danh sách để tìm OpenSSH Client.
 6. Chọn và bấm Install.
 7. Terminal github-> ssh-keygen
-8. `cat ~/.ssh/id_rsa.pub`
+8. `cat ~/.ssh/id_rsa.pub` or `more id_rsa.pub`
 9. github-> setting -> SHHKeys -> New SHH key -> thêm title -> paste all mã id_rsa.pub -> add 
 
 ## 12. Recovery reset --hard
