@@ -234,7 +234,14 @@ https://rapidapi.com/
 ```
 ## 17. Finding IP
 https://dnsdumpster.com/
+
 https://emojipedia.org/waving-hand/
+
+## 18. Query String/Parameters
+```
+http://www.example.com?search=ruby&results=10
+```
+![image](https://user-images.githubusercontent.com/59383987/202881114-847acb26-9e27-404e-a55c-cc4371472512.png)
 
 ## 100. Template github
 
