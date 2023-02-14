@@ -19,8 +19,13 @@
    ` git config --global user.name "username Github"`
 - Config Gmail: 
    ` git config --global user.email "gmail"`
-  
-## 3. How to create a new repository 
+- Info git 
+   ` git config -l '
+- Info the project
+   ` git remote -v`
+
+##
+3. How to create a new repository 
 
 - `git init`
 
