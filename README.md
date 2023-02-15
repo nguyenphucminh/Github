@@ -148,12 +148,13 @@ EX:  *.html  *.css   => git sẽ bỏ qua mà không cần duyệt mấy file c�
 EX:  Tep             => git sẽ bỏ qua mà không cần duyệt mấy tệp tin có tên này
 ```
 ## 9. Tạo docker mongo:
+```
 1. docker pull mongo:latest
 2. docker images
 3. docker run --name mymongo -d -p 27017:27017 -t mongo:latest
 4. docker ps -a
 5. docker exec -it mymongo bash
-
+```
 ## 10. Install mongoshell Ubuntu
 1. https://www.mongodb.com/try/download/shell
 2. -> MongoDBshell -> DebanUbuntu64-bit (deb)
@@ -255,8 +256,9 @@ docker rm <container>: xoá container.
 docker rmi <image>: xoá image.
 docker system prune: xoá dữ liệu không sử dụng. Khi bạn bị Docker ăn hết ổ cứng, bạn sẽ cần lệnh này để xoá các container đã bị stop, những image không sử dụng, cache sinh ra trong quá trình tạo image.
 ```
+## 19 Cách viết file docker
 
-## 19. Query String/Parameters
+## 99. Query String/Parameters
 ```
 http://www.example.com?search=ruby&results=10
 ```
@@ -265,7 +267,6 @@ http://www.example.com?search=ruby&results=10
   min-width="400px"
   max-width="400px"
   width="400px"
-  align="right"
   alt="PC"
 />
 https://viblo.asia/p/tim-hieu-mongodb-phan-2-Zzb7vDEdRjKd
