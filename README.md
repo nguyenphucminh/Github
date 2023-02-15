@@ -20,12 +20,11 @@
 - Config Gmail: 
    ` git config --global user.email "gmail"`
 - Info git 
-   ` git config -l '
+   ` git config -l `
 - Info the project
    ` git remote -v`
 
-##
-3. How to create a new repository 
+## 3. How to create a new repository 
 
 - `git init`
 
@@ -241,8 +240,22 @@ https://rapidapi.com/
 https://dnsdumpster.com/
 
 https://emojipedia.org/waving-hand/
+## 18. Docker Command
+```
+docker images: Liệt kê các Docker image đang có sẵn trong máy của bạn.
+docker ps: liệt kê các Docker container đang chạy.
+docker ps -a: liệt kê tất cả container kể các những container đã bị stop.
+docker stop <container id/name>: stop một container đang chạy.
+docker start <container id/name>: start một container đang bị stop.
+docker build -t <image name> .: các bạn lưu ý là có dấu .ở cuối nhé. Ý là kiếm tập tin Dockerfile tại thư mục hiện tại và theo đó tạo thành image tên <image name>.
+docker run: chạy image lên và tạo thành container.
+docker exec: chạy một lệnh trong môi trường của container đang hoạt động.
+docker rm <container>: xoá container.
+docker rmi <image>: xoá image.
+docker system prune: xoá dữ liệu không sử dụng. Khi bạn bị Docker ăn hết ổ cứng, bạn sẽ cần lệnh này để xoá các container đã bị stop, những image không sử dụng, cache sinh ra trong quá trình tạo image.
+```
 
-## 18. Query String/Parameters
+## 19. Query String/Parameters
 ```
 http://www.example.com?search=ruby&results=10
 ```
