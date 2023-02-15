@@ -95,6 +95,7 @@ or
 
 
 ## 8. Other git
+```
 git status: kiểm tra trạng thái
 
 git add . : thêm vào Staged
@@ -145,7 +146,7 @@ tạo file .gitignore ở thư mục gốc, sau đó muốn git bỏ qua các fi
 EX:  *.html  *.css   => git sẽ bỏ qua mà không cần duyệt mấy file có đuôi tệp này
 
 EX:  Tep             => git sẽ bỏ qua mà không cần duyệt mấy tệp tin có tên này
-
+```
 ## 9. Tạo docker mongo:
 1. docker pull mongo:latest
 2. docker images
@@ -259,8 +260,14 @@ docker system prune: xoá dữ liệu không sử dụng. Khi bạn bị Docker 
 ```
 http://www.example.com?search=ruby&results=10
 ```
-![image](https://user-images.githubusercontent.com/59383987/202881114-847acb26-9e27-404e-a55c-cc4371472512.png)
-
+<img
+  src="https://user-images.githubusercontent.com/59383987/202881114-847acb26-9e27-404e-a55c-cc4371472512.png"
+  min-width="400px"
+  max-width="400px"
+  width="400px"
+  align="right"
+  alt="PC"
+/>
 https://viblo.asia/p/tim-hieu-mongodb-phan-2-Zzb7vDEdRjKd
 ## 100. Template github
 
@@ -269,7 +276,6 @@ https://viblo.asia/p/tim-hieu-mongodb-phan-2-Zzb7vDEdRjKd
   min-width="400px"
   max-width="400px"
   width="400px"
-  align="right"
   alt="PC"
 />
 
