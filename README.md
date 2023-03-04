@@ -44,7 +44,6 @@
 
 ## 5. Use stash save
 
-
 -  `git stash save "add style to our site"`
    
 -  `git stash list`
@@ -91,7 +90,6 @@ or
 
 - `git config --global user.name "username Github"`
 - `git config --global user.email "gmail"`
-
 
 
 ## 8. Other git
