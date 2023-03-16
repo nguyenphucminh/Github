@@ -254,7 +254,12 @@ docker rm <container>: xoá container.
 docker rmi <image>: xoá image.
 docker system prune: xoá dữ liệu không sử dụng. Khi bạn bị Docker ăn hết ổ cứng, bạn sẽ cần lệnh này để xoá các container đã bị stop, những image không sử dụng, cache sinh ra trong quá trình tạo image.
 ```
-## 19 Cách viết file docker
+## 19 Clear cache git
+```
+git rm -r --cached .
+git add .
+```
+
 
 ## 99. Query String/Parameters
 ```
