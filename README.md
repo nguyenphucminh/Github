@@ -144,6 +144,8 @@ tạo file .gitignore ở thư mục gốc, sau đó muốn git bỏ qua các fi
 EX:  *.html  *.css   => git sẽ bỏ qua mà không cần duyệt mấy file có đuôi tệp này
 
 EX:  Tep             => git sẽ bỏ qua mà không cần duyệt mấy tệp tin có tên này
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 ```
 ## 9. Tạo docker mongo:
 ```
