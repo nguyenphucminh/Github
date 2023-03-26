@@ -1,13 +1,3 @@
-# Theory:
-* MongoDB Compass chỉ là môi trường giao diện
-* MongoDB Shell dành cho môi trường dòng lệnh
-* MongoDB Atlat CLI là môi trường lưu trữ web (cloud)
-* Linux ko truy cập đc ứng dụng trên window, Chỉ có window truy cập đc linux, thế nên cài mongodb trên linux vì project có ở linux
-* Mongo Shell là một JavaScript interface tương tác với MongoDB, Mongosh là cái tool để viết mongoshell
-* khi cài mongoshell về thì mongosh sẽ được kèm theo
-* Mongoose là một thư viện JavaScript cho phép bạn định nghĩa các schema với dữ liệu được định kiểu rõ ràng. Khi một schema được định nghĩa, Mongoose cho phép bạn tạo một Model dựa trên một schema cụ thể. Model của Mongoose sau đó được ánh xạ tới một MongoDB document thông qua định nghĩa schema của Model.
-*Khi bạn đã xác định các schema và model của mình, Mongoose chứa nhiều hàm khác nhau cho phép bạn xác thực tính hợp lệ, lưu, xóa và truy vấn dữ liệu của bạn bằng các hàm MongoDB phổ biến. Tôi sẽ nói về việc này nhiều hơn với các ví dụ code cụ thể.
-* Personal access tokens (PATs) là một giải pháp thay thế cho việc xác thực mật khẩu. Token nó như là 1 password thay thế, tuy nhiên nó có thể phân quyền access khác nhau cho từng token khác nhau và nhiều lựa chọn phân quyền
 # Guide GitHub: 
 ## 1. How To Install GitBash:
 
@@ -57,6 +47,8 @@
 -  `git stash branch add-stylesheet stash@{1}`
    
 -  `git stash pop`
+
+-  `git stash apply stash@{1}`
 
 ## 6. Use favicon
 
