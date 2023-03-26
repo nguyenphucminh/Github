@@ -1,4 +1,41 @@
 # Guide GitHub: 
+## 0. Git Advance
+```
+git stash: Lưu những thay đổi chưa được commit và đưa chúng vào stash stack.
+git cherry-pick: Chọn một commit cụ thể và áp dụng nó vào branch hiện tại.
+git rebase: Chuyển đổi lịch sử commit của branch hiện tại bằng cách áp dụng các commit của branch khác lên branch hiện tại.
+git reflog: Liệt kê tất cả các hoạt động của git đã được thực hiện trên repository, kể cả khi các commit đã bị xoá hoặc reset.
+git bisect: Tìm kiếm một commit đã gây ra lỗi bằng cách kiểm tra từng commit một.
+git submodule: Thêm các repository con như một phần của repository chính.
+git filter-branch: Lọc lại lịch sử commit của repository.
+git revert: Tạo ra một commit mới để khôi phục lại trạng thái của repository tại một commit trước đó.
+git blame: Tìm kiếm các thông tin về lịch sử commit của một file cụ thể.
+git tag: Gắn nhãn cho một commit cụ thể để đánh dấu một phiên bản hoặc một trạng thái của repository.
+
+git bisect start: Bắt đầu quá trình tìm kiếm lỗi với git bisect.
+git bisect good: Đánh dấu một commit là đúng trong quá trình tìm kiếm lỗi với git bisect.
+git bisect bad: Đánh dấu một commit là sai trong quá trình tìm kiếm lỗi với git bisect.
+git bisect reset: Kết thúc quá trình tìm kiếm lỗi với git bisect và quay trở lại trạng thái ban đầu.
+git cherry: Chọn một số commit cụ thể và áp dụng chúng vào branch hiện tại.
+git clean: Xoá các tệp tin chưa được theo dõi bởi Git.
+git config: Cấu hình các tùy chọn cho Git.
+git diff: So sánh các thay đổi giữa các phiên bản của repository.
+git log: Hiển thị lịch sử commit của repository.
+git merge: Hợp nhất các commit từ một branch khác vào branch hiện tại.
+
+git blame -C: Hiển thị lịch sử commit của một file cùng với các thay đổi được sao chép từ các file khác.
+git log --graph: Hiển thị lịch sử commit của repository dưới dạng đồ thị để dễ dàng theo dõi.
+git stash apply --index: Áp dụng một stash vào branch hiện tại và giữ nguyên các thay đổi đã được stage.
+git add -p: Chọn từng phần của các thay đổi trong một file để thêm vào staging area.
+git commit --amend: Sửa đổi lại commit message hoặc thêm các thay đổi mới vào commit trước đó.
+git log --follow: Hiển thị lịch sử commit của một file theo đường dẫn của nó trong repository.
+git grep: Tìm kiếm các chuỗi trong các file trong repository.
+git shortlog: Tạo một báo cáo ngắn gọn về lịch sử commit của repository, hiển thị danh sách các tác giả và số lần commit của mỗi tác giả.
+git blame -w: Hiển thị lịch sử commit của một file bỏ qua các khoảng trắng.
+git rebase -i: Chỉnh sửa lại lịch sử commit của branch hiện tại bằng cách tương tác với một trình biên tập.
+
+```
+
 ## 1. How To Install GitBash:
 
 - Install this file: [Link GitBash](https://git-scm.com/download/win)
@@ -212,6 +249,27 @@ ps -aux | grep <key-search>: lọc tiến trình theo key-search
 ss -l : show các port đang sử dụng
 kill <PID> : kill các tiến trình
 lsof -i :<port>
+
+uptime: Hiển thị thời gian hoạt động của hệ thống và thời gian trung bình của các tiến trình đang chạy.
+top: Hiển thị các tiến trình đang chạy và thông tin về tài nguyên mà chúng đang sử dụng.
+htop: Giống như lệnh top, nhưng với giao diện đồ họa và cho phép tương tác.
+free: Hiển thị thông tin về bộ nhớ hệ thống, bao gồm bộ nhớ đã sử dụng, bộ nhớ còn trống và bộ nhớ trao đổi.
+df: Hiển thị thông tin về dung lượng ổ đĩa hệ thống, bao gồm dung lượng đã sử dụng và dung lượng còn trống.
+du: Hiển thị kích thước của các tệp và thư mục trong hệ thống tệp.
+ifconfig: Hiển thị thông tin về các thiết bị mạng, bao gồm địa chỉ IP, địa chỉ MAC và trạng thái kết nối.
+netstat: Hiển thị thông tin về các kết nối mạng đang được thiết lập trên hệ thống.
+ps: Hiển thị thông tin về các tiến trình đang chạy trên hệ thống, bao gồm ID tiến trình, thời gian chạy và tài nguyên sử dụng.
+lsof: Hiển thị danh sách các file đang được mở bởi các tiến trình đang chạy trên hệ thống.
+
+fdisk: Cho phép quản lý các phân vùng trên ổ đĩa.
+blkid: Hiển thị thông tin về các phân vùng và các thiết bị lưu trữ được kết nối với hệ thống.
+uname: Hiển thị thông tin về phiên bản kernel đang chạy trên hệ thống.
+cat /proc/cpuinfo: Hiển thị thông tin về các thông số kỹ thuật của CPU, bao gồm tốc độ xung nhịp, số lõi, và các thông số khác.
+lsmod: Hiển thị danh sách các module kernel đang được sử dụng trên hệ thống.
+dmesg: Hiển thị các thông báo hạt nhân và hệ thống liên quan đến các sự kiện mới nhất của hệ thống.
+journalctl: Hiển thị các thông báo log của hệ thống, bao gồm các thông báo của daemon, ứng dụng và hạt nhân.
+ip: Cho phép quản lý các cài đặt mạng, bao gồm địa chỉ IP, subnet mask, route và nhiều hơn nữa.
+systemctl: Cho phép quản lý các dịch vụ trên hệ thống, bao gồm khởi động, tắt và khởi động lại dịch vụ.
 ```
 
 ## 14. docker linux
