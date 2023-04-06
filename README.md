@@ -290,8 +290,8 @@ https://rapidapi.com/
 ```
 ## 17. Finding IP
 https://dnsdumpster.com/
-
 https://emojipedia.org/waving-hand/
+
 ## 18. Docker Command
 ```
 docker images: Liệt kê các Docker image đang có sẵn trong máy của bạn.
@@ -316,7 +316,11 @@ git add .
 netstat -tulpn
 sudo kill -9 <PID/Program name>
 ```
-
+## 21. Chat (third-party application)
+```
+chatwoot
+tawkto
+```
 
 ## 99. Query String/Parameters
 ```
