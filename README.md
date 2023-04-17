@@ -316,16 +316,7 @@ git add .
 netstat -tulpn
 sudo kill -9 <PID/Program name>
 ```
-## 21. Chat (third-party application)
-```
-chatwoot
-tawkto
-```
 
-## 99. Query String/Parameters
-```
-http://www.example.com?search=ruby&results=10
-```
 <img
   src="https://user-images.githubusercontent.com/59383987/202881114-847acb26-9e27-404e-a55c-cc4371472512.png"
   min-width="400px"
