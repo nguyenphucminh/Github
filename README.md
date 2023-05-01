@@ -316,7 +316,20 @@ git add .
 netstat -tulpn
 sudo kill -9 <PID/Program name>
 ```
-## 21. Customize theme linux:
+## 21. Terminal window: 
+```
+dir - Liệt kê các tệp và thư mục trong thư mục hiện tại.
+cd - Di chuyển đến thư mục khác.
+mkdir - Tạo một thư mục mới.
+rmdir - Xóa một thư mục.
+del - Xóa một tệp.
+copy - Sao chép một tệp từ một vị trí đến vị trí khác.
+xcopy - Sao chép một thư mục và toàn bộ nội dung của nó sang vị trí khác.
+ping - Kiểm tra kết nối mạng với một địa chỉ IP hoặc tên miền.
+ipconfig - Hiển thị thông tin cấu hình mạng.
+netstat - Hiển thị trạng thái kết nối mạng và các cổng đang mở trên máy tính.
+```
+## 22. Customize theme linux:
 ```
 https://youtu.be/XVuEDsKcFMQ
 ```
