@@ -328,6 +328,16 @@ xcopy - Sao chép một thư mục và toàn bộ nội dung của nó sang vị
 ping - Kiểm tra kết nối mạng với một địa chỉ IP hoặc tên miền.
 ipconfig - Hiển thị thông tin cấu hình mạng.
 netstat - Hiển thị trạng thái kết nối mạng và các cổng đang mở trên máy tính.
+tasklist - Liệt kê tất cả các tiến trình đang chạy trên hệ thống.
+taskkill - Kết thúc một tiến trình đang chạy.
+systeminfo - Hiển thị thông tin về hệ thống, bao gồm tên máy tính, phiên bản hệ điều hành, bộ vi xử lý và RAM.
+net user - Hiển thị thông tin về các tài khoản người dùng trên hệ thống.
+net localgroup - Hiển thị thông tin về các nhóm người dùng trên hệ thống.
+net use - Hiển thị danh sách các ổ đĩa được kết nối với hệ thống.
+sfc - Kiểm tra và sửa chữa các tệp hệ thống bị hỏng.
+chkdsk - Kiểm tra và sửa chữa các lỗi trên ổ đĩa.
+diskpart - Quản lý ổ đĩa và phân vùng.
+regedit - Truy cập vào trình quản lý Registry để thay đổi cấu hình hệ thống.
 ```
 ## 22. Customize theme linux:
 ```
