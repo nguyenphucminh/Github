@@ -354,3 +354,7 @@ https://viblo.asia/p/tim-hieu-mongodb-phan-2-Zzb7vDEdRjKd
 https://www.reddit.com/r/Ubuntu/comments/kvwuw1/ubuntu_2010_remove_all_password_complexity/
 
 
+## 23. Kill al port linux
+```
+lsof -i:0-30000 -t | xargs kill -9
+```
